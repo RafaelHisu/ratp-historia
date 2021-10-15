@@ -12,7 +12,11 @@ var seguirSozinho = "<div> <p> &nbsp;A sucata segue sozinha pelas ruas desertas,
 
 var conteudoB = "<div> <p> &nbsp;Ao acordar, se depara com uma figura humana em sua frente, com uma ferramenta tecnológica em suas mãos, ao recuperar seu foco de visão, consegue enxergar que aquela figura era uma menina, com seu gato do lado, o mesmo que o encontrou mais cedo. A menina olhava com curiosidade para aquele humanoide, o mesmo estava extremamente danificado após a queda, com partes enferrujadas e quebradas. A garota conseguiu recuperar bateria e faze-lo acordar. Menina: Você se lembra de algo? A criatura não responde apenas a observa atentamente.  Menina: Okay, você quer vir comigo? Consigo consertar você, juro!</p> </div> <button onclick='carregarConteudo(seguirAmenina)'>Seguir a menina</button> <button onclick='carregarConteudo(seguirSozinho1)'>Seguir sozinho</button>";
 
-var seguirSozinho1 = ` <div> <p> &nbsp;A máquina se afasta da menina e se levanta ainda com dificuldade e começa andar em direção oposta, ainda é possível escutar  voz estridente da garota tentando chamar sua atenção, mas o humanoide segue sem olhar para trás. A garota olha a figura desaparecer durante o caminho, sem nem ao menos saber sua origem ou mesmo o seu nome.</p> <p> &nbsp;Se passam dias, a criatura continua sua busca pelo local de sua única lembrança. Avistou um enorme portão vermelho sangue cercado por muros altos, porém, sem ao menos conseguir processar aquilo em que estava a diante, aquele pobre e fraco aparato começa a perder sua visão, e desaba em frente ao portão, com suas energias chegando ao fim, sem mais nem menos o nome ${nome} nunca mais foi mencionado.</p></div>  <button onclick='carregarConteudo(final1)'>Continuar</button>`;
+var seguirSozinho1 = ` <div> <p> &nbsp;A máquina se afasta da menina e se levanta ainda com dificuldade e começa andar em direção oposta, ainda é possível escutar  voz estridente da garota tentando chamar sua atenção, mas o humanoide segue sem olhar para trás. A garota olha a figura desaparecer durante o caminho, sem nem ao menos saber sua origem ou mesmo o seu nome.</p></div>  <button onclick='carregarConteudo(seguirSozinho2)'>Continuar</button>`;
+
+var seguirSozinho2 = `&nbsp;Se passam dias, a criatura continua sua busca pelo local de sua única lembrança.</p><button onclick='carregarConteudo(seguirSozinho3)'>Continuar</button>`
+
+var serguirSozinho3 = `<p>  Avistou um enorme portão vermelho sangue cercado por muros altos, porém, sem ao menos conseguir processar aquilo em que estava a diante, aquele pobre e fraco aparato começa a perder sua visão, e desaba em frente ao portão, com suas energias chegando ao fim, sem mais nem menos o nome ${nome} nunca mais foi mencionado.</p></p><button onclick='carregarConteudo(final1)'>Finalizar</button>`
 
 var final1 = "<div> <p>Você descobriu a verdade cedo demais, favor recomeçar. </div>  <button onclick='carregarConteudo(conteudoB)'>Recomeçar</button>";
 
@@ -22,7 +26,7 @@ var pecaAzul = '<div><p>&nbsp;O robô aponta para o azul lentamente, ele sente u
 
 var pecaVermelha = '<div><p>Robô escolhe o vermelho rapidamente, porém se torna inquieto com a escolha</p> <p>Menina: "Hmm, não gosto muito desta cor, me lembra do passado."</p> </div>  <button onclick="carregarConteudo(conteudoGaragem)">Continuar</button>';
 
-var pecaCinza = '>div> <p>Robô escolhe o cinza sem hesitar, e permanece sentado em uma cadeira enquanto observa o local.</p> <p>Menina: "Tá, é uma boa cor..." </p> </div> <button onclick="carregarConteudo(conteudoGaragem)">Continuar</button>';
+var pecaCinza = '<div> <p>Robô escolhe o cinza sem hesitar, e permanece sentado em uma cadeira enquanto observa o local.</p> <p>Menina: "Tá, é uma boa cor..." </p> </div> <button onclick="carregarConteudo(conteudoGaragem)">Continuar</button>';
 
 var conteudoGaragem = '<div><p>-Mas enfim, deixa eu analisar umas coisinhas aqui...Essa logo no seu peito, “Caine”, conheço - diz a menina com um olhar de medo e ao mesmo tempo com raiva - você, se lembra de mais alguma coisa do seu passado? </div> </p><button onclick="carregarConteudo(cG1)">Continuar</button>';
 
