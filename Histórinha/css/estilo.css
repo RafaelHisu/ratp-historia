@@ -210,4 +210,8 @@ img {
     border-radius: 10px;
     padding: 3%;
    }
+
+   body {
+      background-repeat: no-repeat;
+   }
 }
