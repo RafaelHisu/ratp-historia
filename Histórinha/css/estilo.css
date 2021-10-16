@@ -21,16 +21,20 @@ body {
     color: #fff;
     transition: 0.5s;
     transition-delay: 0s;
+    font-family: 'Russo One', sans-serif;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
          
 }
 .comecar:hover {
     transition-delay: 1.5s;
-    color: white;
+    color: white;       
     box-shadow: 0 0 10px #001eff,
     0 0 20px #001eff,
     0 0 40px #001eff,
     0 0 80px #001eff,
-    0 0 90px #001eff; 
+    0 0 150px #001eff; 
     background: 0;
     border: 3px solid #001eff;
     
