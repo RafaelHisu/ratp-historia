@@ -15,7 +15,7 @@ var seguirSozinho1 = ` <div> <p> &nbsp;A máquina se afasta da menina e se levan
 
 var seguirSozinho2 = `<div><p>&nbsp;Se passam dias, a criatura continua sua busca pelo local de sua única lembrança.</p></div><button onclick='carregarConteudo(seguirSozinho3)'>Continuar</button>`
 
-var seguirSozinho3 = `<div><p>  Avistou um enorme portão vermelho-sangue cercado por muros altos, porém, sem ao menos conseguir processar aquilo em que estava a diante, aquele pobre e fraco aparato começa a perder sua visão, e desaba em frente ao portão, com suas energias chegando ao fim, sem mais nem menos o nome ${nome} nunca mais foi mencionado.</p> </div></p><button onclick='carregarConteudo(final1)'>Finalizar</button>`
+var seguirSozinho3 = `<div><p>  Avistou um enorme portão vermelho-sangue cercado por muros altos, porém, sem ao menos conseguir processar aquilo em que estava a diante, aquele pobre e fraco aparato começa a perder sua visão, e desaba em frente ao portão, com suas energias chegando ao fim, sem mais nem menos o nome ${nome} nunca mais foi mencionado.</p> </div><button onclick='carregarConteudo(final1)'>Finalizar</button>`
 
 var final1 = "<div> <p>Você descobriu a verdade cedo demais, favor recomeçar. </div>  <button onclick='carregarConteudo(conteudoB)'>Recomeçar</button>";
 
@@ -119,7 +119,7 @@ var cidade4 = '<div><p>&nbsp;O trio chega a uma cidade cheia de estabelecimentos
 
 var cidade5 = '<div><p>&nbsp;Robô: Preciso saber mais sobre mim, vou atrás de umas peças, estou analisando o perímetro e vi que há alguns rastros de memórias minhas por aqui. Vou procurar.</p></div> <button onclick="carregarConteudo(cidade6)">Ir procurar.</button>'
 
-var cidade6 = '<div><p>&nbsp;Karen: Hey, calma ai grandão, você realmente está com poucos parafusos na cabeça… - Enquanto ela falava isso, viu pessoas observando por muito tempo o gigante de ferro, e tentou o avisar, mas ele não estava dando bola para ela. Essas pessoas são conhecidas como: “Ladrões de sucata”, eles costumam despedaçar qualquer coisa que envolva tecnologia só para vender suas peças ou criar armas.</p></div> <button onclick="carregarConteudo(cidade7)">Continuar</button> </p>'
+var cidade6 = '<div><p>&nbsp;Karen: Hey, calma ai grandão, você realmente está com poucos parafusos na cabeça… - Enquanto ela falava isso, viu pessoas observando por muito tempo o gigante de ferro, e tentou o avisar, mas ele não estava dando bola para ela. Essas pessoas são conhecidas como: “Ladrões de sucata”, eles costumam despedaçar qualquer coisa que envolva tecnologia só para vender suas peças ou criar armas.</p></div> <button onclick="carregarConteudo(cidade7)">Continuar</button>'
 
 var cidade7 = `<div><p>&nbsp;${nome} detecta movimentos estranhos se aproximando e percebe armas em suas mãos.</p> <p>&nbsp;Uma batalha começa: Let the battle begin! São por volta de uns 10 ladrões cercando o robô com armas diferenciadas que parecem ser bem perigosas e poderosas.</p></div> <button onclick="carregarConteudo(cidade8)">Lutar.</button>`
 
