@@ -1,7 +1,6 @@
 var nome;
 nome = prompt("Defina um nome para seu personagem.");
 
-
 var conteudoA = " <div> <p> &nbsp;O sol começa a se pôr na cidade de Romperion, neblina entre os céus e o frio atinge os destroços entre as ruas. Em um prédio caído um gato atravessa entre os escombros, buscando por comida o felino pisa em uma peça metálica, de repente uma luz fraca acende, o gato se assusta e corre para fora do cômodo, um som mecânico atinge o ambiente.</p> </div> <div class='null' align='center'> <button class='comecar' onclick='carregarConteudo(comeco)'>COMEÇAR!</button></div>";
 
 var comeco = " <div> <p> &nbsp;Uma figura de repente se levanta com dificuldade, se parece com uma espécie de aparato humanoide. A criatura se direciona para fora do cômodo lutando com sua falta de bateria e acaba por pisar no dispositivo, ao olhar para baixo identifica-se que é compatível com a parte de sua sucata, ao implantá-lo é emitido uma lembrança de um local desconhecido. Ao tentar se dirigir para este lugar, a máquina reencontra o gato.</p> </div><button onclick='carregarConteudo(seguirOgato)'>Seguir o gato</button> <button onclick='carregarConteudo(seguirSozinho)'>Seguir sozinho</button>";
@@ -92,7 +91,7 @@ var caminhoB16 = '<div><p>&nbsp;Ao terminar esse serviço, o robô, que agora po
 
 var caminhoB17 = '<div><p>&nbsp;Ambos recebem missões como: caçar alguns antigos inimigos, especificamente o Caine e o HG.</p></div>  <button onclick="carregarConteudo(final2)">Finalizar</button>'
 
-var final2 = '<div><p>Você chegou a um final trágico, recomece.</p></div> <button onclick="carregarConteudo(conteudoA)">Recomeçar</button>'
+var final2 = '<div><p>Você chegou a um final trágico, recomece.</p></div> <button onclick="carregarConteudo(conteudoB)">Recomeçar</button>'
 
 var cidadeDestino = `<div>&nbsp;${nome} decide ir ajudar Karen, percebeu que sua ambição e curiosidade por querer encontrar sua origem, não valia de nada para uma antiga e esquecida lata-velha.</p> </div> <button onclick="carregarConteudo(cidade2a)">Prosseguir para a cidade.</button>`
 

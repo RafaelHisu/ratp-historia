@@ -1,3 +1,22 @@
+.bHome, input[type=button] {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background:rgb(0, 68, 255);
+    border: 0;
+}
+
+.bHome:hover {
+
+    background:white;
+    border: 2px solid black;
+    border: 0;
+
+}
+
+.btnHome {
+    width: 30px;
+}
 
 body {
      margin-left: 15%;
