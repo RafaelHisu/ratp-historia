@@ -2,7 +2,7 @@
     position: absolute;
     bottom: -10px;
     right: -10px;
-    background:rgb(0, 68, 255);
+    background:orange;
     border: 0;
 }
 
@@ -301,6 +301,7 @@ button, input[type=button] {
 
 
 p {
+    border-left: 5px solid orange;
     color: white;
     padding: 1%;
 }

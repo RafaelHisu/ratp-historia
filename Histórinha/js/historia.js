@@ -27,7 +27,7 @@ var pecaVermelha = '<div><p>Robô escolhe o vermelho rapidamente, porém se torn
 
 var pecaCinza = '<div> <p>Robô escolhe o cinza sem hesitar, e permanece sentado em uma cadeira enquanto observa o local.</p> <p>Menina: "Tá, é uma boa cor..." </p> </div> <button onclick="carregarConteudo(conteudoGaragem)">Continuar</button>';
 
-var conteudoGaragem = '<div><p>-Mas enfim, deixa eu analisar umas coisinhas aqui...Essa logo no seu peito, “Caine”, conheço - diz a menina com um olhar de medo e ao mesmo tempo com raiva - você, se lembra de mais alguma coisa do seu passado? </div> </p><button onclick="carregarConteudo(cG1)">Continuar</button>';
+var conteudoGaragem = '<div><p>-Mas enfim, deixa eu analisar umas coisinhas aqui...Essa logo no seu peito, “Caine”, conheço - diz a menina com um olhar de medo e ao mesmo tempo com raiva - você, se lembra de mais alguma coisa do seu passado? </p></div><button onclick="carregarConteudo(cG1)">Continuar</button>';
 
 var cG1 = '<div><p>Ela arruma a voz do Robô:</p> <p>Robô: Iniciando sistema de voz…</p> <p>Robô: Fazendo avaliação de status geral…</p> <p>Robô: Fazendo avaliação de status geral…</p> <p>Robô: Espaços remanescentes para chips de memória:</p><p> Status: Desabilitado </p><p>Quantidade: 2 disponíveis</p><p>Nível de Verificação do sistema: 70%</p><p>Espaços remanescentes para partes extras: habilitado</p></div> <button onclick="carregarConteudo(cG2)">Continuar</button>';
 
