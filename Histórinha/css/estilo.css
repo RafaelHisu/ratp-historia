@@ -241,7 +241,7 @@ button, input[type=button] {
     
     text-decoration: none;
     background: rgba(128, 128, 128, 0.562);
-    color: white; 
+    color: rgba(255, 255, 255, 0.404); 
     cursor:pointer;
     transition: all .6s; 
     padding:3%;
@@ -264,7 +264,7 @@ button, input[type=button] {
     
     text-decoration: none;
     background: rgba(128, 128, 128, 0.562);
-    color: white; 
+    color: rgba(255, 255, 255, 0.404); 
     cursor:pointer;
     transition: all .6s; 
     padding:3%;
